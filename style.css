@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;      /* Define a fonte padrão da página */
+    background-color: #f0f4f8;           /* Define a cor de fundo */
+    display: flex;                       /* Ativa o Flexbox */
+    justify-content: center;             /* Centraliza o conteúdo horizontalmente */
+    padding: 40px;                       /* Adiciona espaço interno ao redor */
+}
+
+.formulario {
+    background-color: white;             /* Fundo branco para o formulário */
+    padding: 30px;                       /* Espaçamento interno */
+    border-radius: 10px;                 /* Arredonda os cantos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+    width: 350px;                        /* Define a largura do formulário */
+    display: flex;                       /* Ativa o Flexbox */
+    flex-direction: column;              /* Organiza os elementos em coluna */
+}
+
+h1 {
+    color: #5B2C82;                      /* Define a cor do título */
+    text-align: center;                  /* Centraliza o texto */
+}
+
+label {
+    margin-top: 10px;                    /* Espaço acima do label */
+    font-weight: bold;                   /* Deixa o texto em negrito */
+}
+
+input {
+    padding: 8px;                        /* Espaço interno do campo */
+    margin-top: 5px;                     /* Espaço acima do campo */
+    border: 1px solid #ccc;              /* Borda cinza clara */
+    border-radius: 5px;                  /* Arredonda os cantos */
+}
+
+button {
+    margin-top: 20px;                    /* Espaço acima do botão */
+    padding: 10px;                       /* Espaço interno */
+    background-color: #5B2C82;           /* Cor de fundo do botão */
+    color: white;                        /* Cor do texto */
+    border: none;                        /* Remove a borda padrão */
+    border-radius: 5px;                  /* Arredonda os cantos */
+    cursor: pointer;                     /* Mostra a "mãozinha" ao passar o mouse */
+}
+
+button:hover {
+    background-color: #7E3FB5;           /* Muda a cor ao passar o mouse */
+}

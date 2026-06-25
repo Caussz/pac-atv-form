@@ -1,0 +1,60 @@
+<!DOCTYPE html> <!-- Informa ao navegador que o documento usa HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Permite o uso correto de caracteres especiais (ç, á, é, etc.) -->
+    <title>Meu Formulário</title> <!-- Título exibido na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS à página -->
+</head>
+
+<body> <!-- Início do conteúdo visível da página -->
+
+    <form class="formulario"> <!-- Cria um formulário e aplica a classe "formulario" do CSS -->
+
+        <h1>Cadastro</h1> <!-- Título principal do formulário -->
+
+        <label for="nome">Nome:</label> <!-- Texto associado ao campo de nome -->
+        <input type="text" id="nome" placeholder="Seu nome"> <!-- Campo para digitar o nome -->
+
+        <label for="email">E-mail:</label> <!-- Texto associado ao campo de e-mail -->
+        <input type="email" id="email" placeholder="exemplo@email.com"> <!-- Campo para digitar o e-mail -->
+
+        <label for="idade">Idade:</label> <!-- Texto associado ao campo de idade -->
+        <input type="number" id="idade" placeholder="Sua idade"> <!-- Campo para digitar apenas números -->
+
+        <button type="button">Enviar</button> <!-- Botão que pode executar uma ação quando clicado -->
+
+    </form>
+
+</body> <!-- Fim do conteúdo visível da página -->
+
+</html> <!-- Fim do documento HTML -->
+
+<!-- 
+Adicionando novos campos
+Opções de Campos para implementar no Código:
+
+Campo de telefone:
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" placeholder="(47) 99999-9999">
+
+Campo de cidade:
+<label for="cidade">Cidade:</label>
+<input type="text" id="cidade" placeholder="Sua cidade">
+
+Campo de cor favorita (escolhe usando um seletor de cores):
+<label for="cor">Cor favorita:</label>
+<input type="color" id="cor">
+
+Campo de data de nascimento:
+<label for="nascimento">Data de nascimento:</label>
+<input type="date" id="nascimento">
+
+Caixa de seleção (checkbox) para aceitar termos:
+<label>
+ <input type="checkbox" id="termos">
+ Aceito receber novidades por e-mail
+</label>
+
+8. Salve tudo, atualize o navegador e veja seu formulário completo!
+-->
